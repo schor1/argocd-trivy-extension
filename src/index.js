@@ -198,7 +198,9 @@ const Extension = (props) => {
           <div>Loading vulnerability report...</div>
         ) : reportUrl ? (
           <>
-            {currentTabIndex === 0 && <DataGrid reportUrl={reportUrl} />}
+            {currentTabIndex === 0 && (
+              <DataGrid key={reportUrl} reportUrl={reportUrl} />
+            )}
             {currentTabIndex === 1 && <Dashboard reportUrl={reportUrl} />}
           </>
         ) : (
