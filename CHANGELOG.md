@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.2 2026-01-14
+
+- Fix naming convetion issues
+
 ## v0.2.1 2024-05-13
 
 - Fix: sorting order for severity column
