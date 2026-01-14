@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.3 2026-01-14
+
+- Fix sorting for score
+
 ## v0.2.2 2026-01-14
 
 - Fix naming convetion issues
